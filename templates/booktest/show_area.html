@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分页</title>
+</head>
+<body>
+<ul>
+    {% for area in page.object_list%}
+        <li>{{area.atitle}}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>

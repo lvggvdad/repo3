@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板文件</title>
+</head>
+<body>
+<img src="/static/images/mm.jpg">
+动态获取STATIC_URL,拼接静态文件路径:<br/>
+<img src="{%static 'images/mm.jpg'%}">
+</body>
+</html>
